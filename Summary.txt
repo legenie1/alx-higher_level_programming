@@ -1,0 +1,9 @@
+#OOP
+#INTRODUCTION
+
+OOP is a computer programming model that organizes software around data or objects rather than just functions or mogic;
+it's made up of
+- Classes
+- objects
+- Methods
+- Attributes
