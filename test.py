@@ -1,5 +1,5 @@
-from double import double
-
-things =[2,3,"spam",9.5, [4,7]]
-
-print(things)
+class A:
+    a="Bonjour et bienvenue à vous"
+    
+X = A()
+print(X.__class__.__dict__)
