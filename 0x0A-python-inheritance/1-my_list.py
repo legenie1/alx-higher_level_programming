@@ -1,14 +1,16 @@
 #!/usr/bin/python3
 """
-This module implements a custom list object
+===========================
+Module with class MyList
+===========================
 """
 
 
 class MyList(list):
-    """Custom List
-    """
+    """Class with method print_sorted"""
+    pass
+
     def print_sorted(self):
-        """
-        prints the list, but sorted (ascending sort)
-        """
-        print(sorted(self))
+        """Methot that sorted a list"""
+
+        print(sorted(list(self)))

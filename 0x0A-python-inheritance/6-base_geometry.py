@@ -1,16 +1,16 @@
 #!/usr/bin/python3
 """
-This module implements an object skeleton for BaseGeometry
+===================================
+module with class BaseGeometry
+===================================
 """
 
 
 class BaseGeometry:
-    """implementation
-    """
-    def area(self):
-        """find area
+    """BaseGeometry class"""
 
-        Raises:
-            Exception: area not implemented
-        """
+    @classmethod
+    def area(self):
+        """method for calculated area"""
+
         raise Exception("area() is not implemented")
